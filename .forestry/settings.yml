@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: data
   label: Datafiles
-  create: documents
+  create: all
   match: "**/*.yaml"
 - type: directory
   path: content
