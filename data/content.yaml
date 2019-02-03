@@ -49,8 +49,3 @@ articles:
   language: JavaScript
   github: "#github"
   medium: "#medium-url"
-- title: docker-mail-relay
-  content: Postfix Mail Relay in a Docker container
-  language: shell
-  github: "#github"
-  medium: "#medium-url"
