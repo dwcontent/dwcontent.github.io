@@ -21,7 +21,7 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d ./
-  publish_command: hugo
+  publish_command: hugo -d docs
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.53
@@ -29,5 +29,5 @@ build:
   - HUGO_ENV=production
   - HUGO_VERSION=0.53
   preview_output_directory: public
-  output_directory: docs
+  output_directory: "*"
 version: '0.53'
